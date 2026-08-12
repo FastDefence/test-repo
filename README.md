@@ -3,32 +3,33 @@ develop
 feature
 
 ## branch ruleset
-以下の条件の場合に，mainにdevelopがマージされてもブランチを消えないようにする
+developがPR&マージされてもブランチが消えないようにする
 
 - default branchをdevelopにしておく
+- Settings->Branches->Rulesets->Add branch ruleset
+から，Branch rulesの Restrict deletionsにチェックを入れてルールを作成する
+- active
+- `develop`をターゲットに追加
 
-Settings->Branches->Rulesets->Add branch ruleset
-から，Branch rulesの Restrict deletionsにチェックを入れる
 ---
 ![alt text](image.png)
 ---
-![alt text](image-2.png)
+![alt text](image-8.png)
 ---
 
 ## settings
-Settings->Pull Requests
-の，Automatically delete head branchesにはチェックを入れない
+- Settings->Pull Requests
+の，Automatically delete head branchesにはチェックを入れる(featブランチとかは消えたほうがよいだろうから)
 ---
 ![alt text](image-6.png)
 ---
 
 ## 2度目以降のマージ
+- contributeのところを押せばよい
 ---
 ![alt text](image-1.png)
 ---
 ![alt text](image-3.png)
 ---
-![alt text](image-4.png)
----
-![alt text](image-5.png)
+![alt text](image-7.png)
 ---
