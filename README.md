@@ -3,7 +3,7 @@ develop
 feature
 
 ## branch ruleset
-以下の条件の場合に，mainにdevelopがマージされてもブランチを消えないようにする
+developがPR&マージされてもブランチが消えないようにする
 
 - default branchをdevelopにしておく
 
@@ -12,7 +12,7 @@ feature
 ---
 ![alt text](image.png)
 ---
-![alt text](image-2.png)
+![alt text](image-8.png)
 ---
 
 ## settings
