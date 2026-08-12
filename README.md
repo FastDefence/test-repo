@@ -1,3 +1,1 @@
 # test-repo
-develop
-feature
