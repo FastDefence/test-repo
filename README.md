@@ -26,6 +26,8 @@ developがPR&マージされてもブランチが消えないようにする
 
 ## 2度目以降のマージ
 - contributeのところを押せばよい
+- マージ後に，ローカルのdevelopブランチ上で変更をして，git pull->pushできれば成功
+
 ---
 ![alt text](image-1.png)
 ---
