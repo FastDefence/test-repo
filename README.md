@@ -6,9 +6,11 @@ feature
 developがPR&マージされてもブランチが消えないようにする
 
 - default branchをdevelopにしておく
-
 - Settings->Branches->Rulesets->Add branch ruleset
 から，Branch rulesの Restrict deletionsにチェックを入れてルールを作成する
+- active
+- `develop`をターゲットに追加
+
 ---
 ![alt text](image.png)
 ---
